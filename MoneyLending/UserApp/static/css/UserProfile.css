@@ -1,0 +1,156 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.headd{
+	background-color:#f0f0f0;
+	height:46px;
+	width:100%;
+	border: none;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	-o-box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+	font-size:15px;
+}
+#plus{
+	box-shadow: 5px 5px  5px rgba(0,0,0,0.6);
+	-moz-box-shadow: 5px 5px  5px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 5px 5px  5px rgba(0,0,0,0.6);
+}
+#head-img{
+	position:relative;
+		top:8px;
+		left:15px;
+	
+}
+.propic{
+	border-radius:10px;
+	position:relative;
+		right:20px;
+}
+#inputs{
+	color:#f0f0f0;
+	border-style:hidden;
+}
+#inputs1{
+	color:#f0f0f0;
+	border-style:hidden;
+	position:relative;
+		bottom:6px;
+}
+#des{
+	position:relative;
+		bottom:8px;
+}
+.form-control{
+	background-color:#f0f0f0;
+}
+.titles{
+	padding-top:20px;
+}
+#sett{
+	font-size:18px;
+	font-weight:bold;
+	padding-left:220px;
+	padding-top:30px;
+}
+#column1{
+	padding-left:260px;
+	padding-top:20px;
+}
+#change{
+	font-size:12px;
+	color:black;
+	padding-right:7px;
+}
+#pp1{
+	padding-top:30px;
+}
+.btn{
+	height:30px;
+	width:30px;
+	border-radius: 50%;
+	display:block;
+	
+}
+#btn1{
+	border-radius:5px;
+	border:none;
+	color:white;
+	background-color:#00c7ae;
+	height:35px;
+	width:160px;
+	box-shadow:0px 3px 3px 0px rgba(0,0,0,0.15);
+}
+.img1{
+	position:relative;
+		right:12px;
+		bottom:9px;
+}
+.container {
+  display: block;
+  position: relative;
+  font-weight:none;
+  padding-left: 35px;
+  padding-top:1px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#fff{
+ padding-left: 100px;
+position:relative;
+bottom:26px;
+ }
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: black;
+}
+.para{
+	color:rgb(180,180,180);
+	font-size:12px;
+	padding-top:10px;
+}
+#btn2{
+	border-radius:5px;
+	border:none;
+	color:#787878;
+	background-color:#f0f0f0;
+	width:100%;
+	height:35px;
+}
+#btn2:hover,
+#btn1:hover{
+	color:black;
+}

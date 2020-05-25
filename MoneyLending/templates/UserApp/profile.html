@@ -1,0 +1,15 @@
+{% extends 'UserApp/base.html' %}
+{% block body_block %}
+
+<div class="jumbotron">
+	<li>{{ user.username }}</li><br>
+
+	<li>{{ user.first_name }}</li><br>
+	<li>{{ user.last_name }}</li><br>
+	<li>{{ user.email }}</li><br>
+	<li>{{ dob }}</li><br>
+	<!--<li><img src="{ userPro.profile_pic }"/></li>-->
+	<li><a href="{% url 'UserApp:changepwd' %}">Change password</a></li>
+</div>
+
+{% endblock %}
